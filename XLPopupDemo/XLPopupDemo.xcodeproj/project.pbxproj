@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA3167522E84951005511DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3167422E84951005511DF /* AppDelegate.m */; };
+		3BA3167822E84951005511DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3167722E84951005511DF /* ViewController.m */; };
+		3BA3167B22E84951005511DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA3167922E84951005511DF /* Main.storyboard */; };
+		3BA3167D22E84952005511DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA3167C22E84952005511DF /* Assets.xcassets */; };
+		3BA3168022E84952005511DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA3167E22E84952005511DF /* LaunchScreen.storyboard */; };
+		3BA3168322E84952005511DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3168222E84952005511DF /* main.m */; };
+		3BA3168D22E84952005511DF /* XLPopupDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3168C22E84952005511DF /* XLPopupDemoTests.m */; };
+		3BA3169822E84952005511DF /* XLPopupDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3169722E84952005511DF /* XLPopupDemoUITests.m */; };
+		3BA316A922E84D52005511DF /* XLPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316A822E84D52005511DF /* XLPopupWindow.m */; };
+		3BA316AC22E84D71005511DF /* XLPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316AB22E84D71005511DF /* XLPopupView.m */; };
+		3BA316AF22E84D95005511DF /* XLAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316AE22E84D95005511DF /* XLAlert.m */; };
+		3BA316B422E8A5AB005511DF /* PopupStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316B322E8A5AB005511DF /* PopupStore.m */; };
+		3BA316B722E8A6F4005511DF /* CustomPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316B622E8A6F4005511DF /* CustomPopupView.m */; };
+		3BA316BE22E9911E005511DF /* XLPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316BD22E9911E005511DF /* XLPresentationController.m */; };
+		3BA316D222E9B712005511DF /* URLPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316D122E9B712005511DF /* URLPreviewViewController.m */; };
+		DC1AA819D767F9F0DA0DDA3B /* libPods-XLPopupDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E027DDF1236FD502A7F105 /* libPods-XLPopupDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA3168922E84952005511DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA3166822E84951005511DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA3166F22E84951005511DF;
+			remoteInfo = XLPopupDemo;
+		};
+		3BA3169422E84952005511DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA3166822E84951005511DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA3166F22E84951005511DF;
+			remoteInfo = XLPopupDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E2E7CE78E580D223868BFF0 /* Pods-XLPopupDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPopupDemo.debug.xcconfig"; path = "Target Support Files/Pods-XLPopupDemo/Pods-XLPopupDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3BA3167022E84951005511DF /* XLPopupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPopupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA3167322E84951005511DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BA3167422E84951005511DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BA3167622E84951005511DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BA3167722E84951005511DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BA3167A22E84951005511DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BA3167C22E84952005511DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA3167F22E84952005511DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BA3168122E84952005511DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA3168222E84952005511DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA3168822E84952005511DF /* XLPopupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPopupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA3168C22E84952005511DF /* XLPopupDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopupDemoTests.m; sourceTree = "<group>"; };
+		3BA3168E22E84952005511DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA3169322E84952005511DF /* XLPopupDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPopupDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA3169722E84952005511DF /* XLPopupDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopupDemoUITests.m; sourceTree = "<group>"; };
+		3BA3169922E84952005511DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA316A722E84D52005511DF /* XLPopupWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPopupWindow.h; sourceTree = "<group>"; };
+		3BA316A822E84D52005511DF /* XLPopupWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopupWindow.m; sourceTree = "<group>"; };
+		3BA316AA22E84D71005511DF /* XLPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPopupView.h; sourceTree = "<group>"; };
+		3BA316AB22E84D71005511DF /* XLPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopupView.m; sourceTree = "<group>"; };
+		3BA316AD22E84D95005511DF /* XLAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAlert.h; sourceTree = "<group>"; };
+		3BA316AE22E84D95005511DF /* XLAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAlert.m; sourceTree = "<group>"; };
+		3BA316B022E84DF3005511DF /* XLPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPopup.h; sourceTree = "<group>"; };
+		3BA316B122E84E21005511DF /* XLPopupDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPopupDefinition.h; sourceTree = "<group>"; };
+		3BA316B222E8A5AB005511DF /* PopupStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupStore.h; sourceTree = "<group>"; };
+		3BA316B322E8A5AB005511DF /* PopupStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupStore.m; sourceTree = "<group>"; };
+		3BA316B522E8A6F4005511DF /* CustomPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPopupView.h; sourceTree = "<group>"; };
+		3BA316B622E8A6F4005511DF /* CustomPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPopupView.m; sourceTree = "<group>"; };
+		3BA316BC22E9911E005511DF /* XLPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPresentationController.h; sourceTree = "<group>"; };
+		3BA316BD22E9911E005511DF /* XLPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPresentationController.m; sourceTree = "<group>"; };
+		3BA316D022E9B712005511DF /* URLPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLPreviewViewController.h; sourceTree = "<group>"; };
+		3BA316D122E9B712005511DF /* URLPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLPreviewViewController.m; sourceTree = "<group>"; };
+		3BA316EE22E9C5C2005511DF /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		41B9E08AF101E03E6FE46953 /* Pods-XLPopupDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPopupDemo.release.xcconfig"; path = "Target Support Files/Pods-XLPopupDemo/Pods-XLPopupDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E3E027DDF1236FD502A7F105 /* libPods-XLPopupDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLPopupDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA3166D22E84951005511DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1AA819D767F9F0DA0DDA3B /* libPods-XLPopupDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA3168522E84952005511DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA3169022E84952005511DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA3166722E84951005511DF = {
+			isa = PBXGroup;
+			children = (
+				3BA316A622E84D32005511DF /* XLPopup */,
+				3BA3167222E84951005511DF /* XLPopupDemo */,
+				3BA3168B22E84952005511DF /* XLPopupDemoTests */,
+				3BA3169622E84952005511DF /* XLPopupDemoUITests */,
+				3BA3167122E84951005511DF /* Products */,
+				CB70F1A4E54BC458B481FDC1 /* Pods */,
+				87169E4F361C1235B135AD38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA3167122E84951005511DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3167022E84951005511DF /* XLPopupDemo.app */,
+				3BA3168822E84952005511DF /* XLPopupDemoTests.xctest */,
+				3BA3169322E84952005511DF /* XLPopupDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA3167222E84951005511DF /* XLPopupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3167322E84951005511DF /* AppDelegate.h */,
+				3BA3167422E84951005511DF /* AppDelegate.m */,
+				3BA3167622E84951005511DF /* ViewController.h */,
+				3BA3167722E84951005511DF /* ViewController.m */,
+				3BA316D022E9B712005511DF /* URLPreviewViewController.h */,
+				3BA316D122E9B712005511DF /* URLPreviewViewController.m */,
+				3BA316B222E8A5AB005511DF /* PopupStore.h */,
+				3BA316B322E8A5AB005511DF /* PopupStore.m */,
+				3BA316B522E8A6F4005511DF /* CustomPopupView.h */,
+				3BA316B622E8A6F4005511DF /* CustomPopupView.m */,
+				3BA3167922E84951005511DF /* Main.storyboard */,
+				3BA3167C22E84952005511DF /* Assets.xcassets */,
+				3BA3167E22E84952005511DF /* LaunchScreen.storyboard */,
+				3BA3168122E84952005511DF /* Info.plist */,
+				3BA3168222E84952005511DF /* main.m */,
+			);
+			path = XLPopupDemo;
+			sourceTree = "<group>";
+		};
+		3BA3168B22E84952005511DF /* XLPopupDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3168C22E84952005511DF /* XLPopupDemoTests.m */,
+				3BA3168E22E84952005511DF /* Info.plist */,
+			);
+			path = XLPopupDemoTests;
+			sourceTree = "<group>";
+		};
+		3BA3169622E84952005511DF /* XLPopupDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3169722E84952005511DF /* XLPopupDemoUITests.m */,
+				3BA3169922E84952005511DF /* Info.plist */,
+			);
+			path = XLPopupDemoUITests;
+			sourceTree = "<group>";
+		};
+		3BA316A622E84D32005511DF /* XLPopup */ = {
+			isa = PBXGroup;
+			children = (
+				3BA316A722E84D52005511DF /* XLPopupWindow.h */,
+				3BA316A822E84D52005511DF /* XLPopupWindow.m */,
+				3BA316AA22E84D71005511DF /* XLPopupView.h */,
+				3BA316AB22E84D71005511DF /* XLPopupView.m */,
+				3BA316BC22E9911E005511DF /* XLPresentationController.h */,
+				3BA316BD22E9911E005511DF /* XLPresentationController.m */,
+				3BA316AD22E84D95005511DF /* XLAlert.h */,
+				3BA316AE22E84D95005511DF /* XLAlert.m */,
+				3BA316B022E84DF3005511DF /* XLPopup.h */,
+				3BA316B122E84E21005511DF /* XLPopupDefinition.h */,
+			);
+			path = XLPopup;
+			sourceTree = "<group>";
+		};
+		87169E4F361C1235B135AD38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA316EE22E9C5C2005511DF /* libxml2.2.tbd */,
+				E3E027DDF1236FD502A7F105 /* libPods-XLPopupDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB70F1A4E54BC458B481FDC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E2E7CE78E580D223868BFF0 /* Pods-XLPopupDemo.debug.xcconfig */,
+				41B9E08AF101E03E6FE46953 /* Pods-XLPopupDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA3166F22E84951005511DF /* XLPopupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA3169C22E84952005511DF /* Build configuration list for PBXNativeTarget "XLPopupDemo" */;
+			buildPhases = (
+				78AA041E1F57E80853340820 /* [CP] Check Pods Manifest.lock */,
+				3BA3166C22E84951005511DF /* Sources */,
+				3BA3166D22E84951005511DF /* Frameworks */,
+				3BA3166E22E84951005511DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLPopupDemo;
+			productName = XLPopupDemo;
+			productReference = 3BA3167022E84951005511DF /* XLPopupDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA3168722E84952005511DF /* XLPopupDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA3169F22E84952005511DF /* Build configuration list for PBXNativeTarget "XLPopupDemoTests" */;
+			buildPhases = (
+				3BA3168422E84952005511DF /* Sources */,
+				3BA3168522E84952005511DF /* Frameworks */,
+				3BA3168622E84952005511DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA3168A22E84952005511DF /* PBXTargetDependency */,
+			);
+			name = XLPopupDemoTests;
+			productName = XLPopupDemoTests;
+			productReference = 3BA3168822E84952005511DF /* XLPopupDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BA3169222E84952005511DF /* XLPopupDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA316A222E84952005511DF /* Build configuration list for PBXNativeTarget "XLPopupDemoUITests" */;
+			buildPhases = (
+				3BA3168F22E84952005511DF /* Sources */,
+				3BA3169022E84952005511DF /* Frameworks */,
+				3BA3169122E84952005511DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA3169522E84952005511DF /* PBXTargetDependency */,
+			);
+			name = XLPopupDemoUITests;
+			productName = XLPopupDemoUITests;
+			productReference = 3BA3169322E84952005511DF /* XLPopupDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA3166822E84951005511DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = weirdyu;
+				TargetAttributes = {
+					3BA3166F22E84951005511DF = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3BA3168722E84952005511DF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3BA3166F22E84951005511DF;
+					};
+					3BA3169222E84952005511DF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3BA3166F22E84951005511DF;
+					};
+				};
+			};
+			buildConfigurationList = 3BA3166B22E84951005511DF /* Build configuration list for PBXProject "XLPopupDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA3166722E84951005511DF;
+			productRefGroup = 3BA3167122E84951005511DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA3166F22E84951005511DF /* XLPopupDemo */,
+				3BA3168722E84952005511DF /* XLPopupDemoTests */,
+				3BA3169222E84952005511DF /* XLPopupDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA3166E22E84951005511DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA3168022E84952005511DF /* LaunchScreen.storyboard in Resources */,
+				3BA3167D22E84952005511DF /* Assets.xcassets in Resources */,
+				3BA3167B22E84951005511DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA3168622E84952005511DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA3169122E84952005511DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78AA041E1F57E80853340820 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLPopupDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA3166C22E84951005511DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA316AC22E84D71005511DF /* XLPopupView.m in Sources */,
+				3BA3167822E84951005511DF /* ViewController.m in Sources */,
+				3BA3168322E84952005511DF /* main.m in Sources */,
+				3BA316A922E84D52005511DF /* XLPopupWindow.m in Sources */,
+				3BA316AF22E84D95005511DF /* XLAlert.m in Sources */,
+				3BA316D222E9B712005511DF /* URLPreviewViewController.m in Sources */,
+				3BA316BE22E9911E005511DF /* XLPresentationController.m in Sources */,
+				3BA3167522E84951005511DF /* AppDelegate.m in Sources */,
+				3BA316B722E8A6F4005511DF /* CustomPopupView.m in Sources */,
+				3BA316B422E8A5AB005511DF /* PopupStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA3168422E84952005511DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA3168D22E84952005511DF /* XLPopupDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA3168F22E84952005511DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA3169822E84952005511DF /* XLPopupDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA3168A22E84952005511DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA3166F22E84951005511DF /* XLPopupDemo */;
+			targetProxy = 3BA3168922E84952005511DF /* PBXContainerItemProxy */;
+		};
+		3BA3169522E84952005511DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA3166F22E84951005511DF /* XLPopupDemo */;
+			targetProxy = 3BA3169422E84952005511DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BA3167922E84951005511DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA3167A22E84951005511DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA3167E22E84952005511DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA3167F22E84952005511DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BA3169A22E84952005511DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BA3169B22E84952005511DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA3169D22E84952005511DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2E7CE78E580D223868BFF0 /* Pods-XLPopupDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCategories\"",
+				);
+				INFOPLIST_FILE = XLPopupDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weirdyu.XLPopupDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		3BA3169E22E84952005511DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B9E08AF101E03E6FE46953 /* Pods-XLPopupDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCategories\"",
+				);
+				INFOPLIST_FILE = XLPopupDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weirdyu.XLPopupDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		3BA316A022E84952005511DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRC4FX2BPZ;
+				INFOPLIST_FILE = XLPopupDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weirdyu.XLPopupDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLPopupDemo.app/XLPopupDemo";
+			};
+			name = Debug;
+		};
+		3BA316A122E84952005511DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRC4FX2BPZ;
+				INFOPLIST_FILE = XLPopupDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weirdyu.XLPopupDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLPopupDemo.app/XLPopupDemo";
+			};
+			name = Release;
+		};
+		3BA316A322E84952005511DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRC4FX2BPZ;
+				INFOPLIST_FILE = XLPopupDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weirdyu.XLPopupDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XLPopupDemo;
+			};
+			name = Debug;
+		};
+		3BA316A422E84952005511DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRC4FX2BPZ;
+				INFOPLIST_FILE = XLPopupDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weirdyu.XLPopupDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XLPopupDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA3166B22E84951005511DF /* Build configuration list for PBXProject "XLPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA3169A22E84952005511DF /* Debug */,
+				3BA3169B22E84952005511DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA3169C22E84952005511DF /* Build configuration list for PBXNativeTarget "XLPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA3169D22E84952005511DF /* Debug */,
+				3BA3169E22E84952005511DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA3169F22E84952005511DF /* Build configuration list for PBXNativeTarget "XLPopupDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA316A022E84952005511DF /* Debug */,
+				3BA316A122E84952005511DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA316A222E84952005511DF /* Build configuration list for PBXNativeTarget "XLPopupDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA316A322E84952005511DF /* Debug */,
+				3BA316A422E84952005511DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA3166822E84951005511DF /* Project object */;
+}
