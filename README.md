@@ -5,4 +5,5 @@ XLPopup is now available.
 
 # Preview
 
-https://github.com/weirdyu/XLPopup/blob/master/Preview.gif
+![img](https://github.com/weirdyu/XLPopup/blob/master/Preview.gif)
+
