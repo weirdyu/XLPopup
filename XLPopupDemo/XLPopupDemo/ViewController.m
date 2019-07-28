@@ -11,7 +11,7 @@
 #import "XLPopup.h"
 #import "CustomPopupView.h"
 #import "PopupStore.h"
-#import "URLPreviewViewController.h"
+#import "PresentatedViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -73,7 +73,7 @@
     if (style.popupType == PopupTypeView) {
         [CustomPopupView showPopupViewWithShowType:style.showType maskType:style.maskType];
     }else {
-        URLPreviewViewController *vc = [URLPreviewViewController new];
+        PresentatedViewController *vc = [PresentatedViewController new];
         vc.view.backgroundColor = [UIColor whiteColor];
         vc.view.clipsToBounds = YES;
         vc.view.layer.cornerRadius = 10;

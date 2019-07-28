@@ -31,7 +31,7 @@
              [PopupStyle styleWithTitle:@"ShowTypeFromBottom + MaskTypeClear" popupType:PopupTypeView showType:XLPopupShowTypeFromBottom maskType:XLPopupMaskTypeClear],
              [PopupStyle styleWithTitle:@"ShowTypeScaleOut + MaskTypeDarkBlur" popupType:PopupTypeView showType:XLPopupShowTypeScaleOut maskType:XLPopupMaskTypeDarkBlur],
              [PopupStyle styleWithTitle:@"ShowTypeScaleIn + MaskTypeLightBlur" popupType:PopupTypeView showType:XLPopupShowTypeScaleIn maskType:XLPopupMaskTypeLightBlur],
-             [PopupStyle styleWithTitle:@"Presentation" popupType:PopupTypeViewController showType:XLPopupShowTypeScaleOut maskType:XLPopupMaskTypeNormal]];
+             [PopupStyle styleWithTitle:@"Presente ViewController" popupType:PopupTypeViewController showType:XLPopupShowTypeScaleOut maskType:XLPopupMaskTypeNormal]];
 }
 
 @end

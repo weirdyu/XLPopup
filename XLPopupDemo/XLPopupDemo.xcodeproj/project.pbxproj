@@ -21,7 +21,7 @@
 		3BA316B422E8A5AB005511DF /* PopupStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316B322E8A5AB005511DF /* PopupStore.m */; };
 		3BA316B722E8A6F4005511DF /* CustomPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316B622E8A6F4005511DF /* CustomPopupView.m */; };
 		3BA316BE22E9911E005511DF /* XLPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316BD22E9911E005511DF /* XLPresentationController.m */; };
-		3BA316D222E9B712005511DF /* URLPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316D122E9B712005511DF /* URLPreviewViewController.m */; };
+		3BA316D222E9B712005511DF /* PresentatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA316D122E9B712005511DF /* PresentatedViewController.m */; };
 		DC1AA819D767F9F0DA0DDA3B /* libPods-XLPopupDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E027DDF1236FD502A7F105 /* libPods-XLPopupDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -74,8 +74,8 @@
 		3BA316B622E8A6F4005511DF /* CustomPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPopupView.m; sourceTree = "<group>"; };
 		3BA316BC22E9911E005511DF /* XLPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPresentationController.h; sourceTree = "<group>"; };
 		3BA316BD22E9911E005511DF /* XLPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPresentationController.m; sourceTree = "<group>"; };
-		3BA316D022E9B712005511DF /* URLPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLPreviewViewController.h; sourceTree = "<group>"; };
-		3BA316D122E9B712005511DF /* URLPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLPreviewViewController.m; sourceTree = "<group>"; };
+		3BA316D022E9B712005511DF /* PresentatedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentatedViewController.h; sourceTree = "<group>"; };
+		3BA316D122E9B712005511DF /* PresentatedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentatedViewController.m; sourceTree = "<group>"; };
 		3BA316EE22E9C5C2005511DF /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		41B9E08AF101E03E6FE46953 /* Pods-XLPopupDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPopupDemo.release.xcconfig"; path = "Target Support Files/Pods-XLPopupDemo/Pods-XLPopupDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E3E027DDF1236FD502A7F105 /* libPods-XLPopupDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLPopupDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,8 +137,8 @@
 				3BA3167422E84951005511DF /* AppDelegate.m */,
 				3BA3167622E84951005511DF /* ViewController.h */,
 				3BA3167722E84951005511DF /* ViewController.m */,
-				3BA316D022E9B712005511DF /* URLPreviewViewController.h */,
-				3BA316D122E9B712005511DF /* URLPreviewViewController.m */,
+				3BA316D022E9B712005511DF /* PresentatedViewController.h */,
+				3BA316D122E9B712005511DF /* PresentatedViewController.m */,
 				3BA316B222E8A5AB005511DF /* PopupStore.h */,
 				3BA316B322E8A5AB005511DF /* PopupStore.m */,
 				3BA316B522E8A6F4005511DF /* CustomPopupView.h */,
@@ -366,7 +366,7 @@
 				3BA3168322E84952005511DF /* main.m in Sources */,
 				3BA316A922E84D52005511DF /* XLPopupWindow.m in Sources */,
 				3BA316AF22E84D95005511DF /* XLAlert.m in Sources */,
-				3BA316D222E9B712005511DF /* URLPreviewViewController.m in Sources */,
+				3BA316D222E9B712005511DF /* PresentatedViewController.m in Sources */,
 				3BA316BE22E9911E005511DF /* XLPresentationController.m in Sources */,
 				3BA3167522E84951005511DF /* AppDelegate.m in Sources */,
 				3BA316B722E8A6F4005511DF /* CustomPopupView.m in Sources */,
