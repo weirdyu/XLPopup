@@ -26,6 +26,7 @@ CustomPopupView.m
     self = [super initWithSuperView:superView showType:showType maskType:maskType];
     if (self) {
         self.delegate = self;
+				//----------custom setup subviews----------
         BOOL isMaskLight;
         if (maskType == XLPopupMaskTypeNormal || maskType == XLPopupMaskTypeDarkBlur) {
             isMaskLight = NO;
@@ -45,6 +46,7 @@ CustomPopupView.m
             make.center.equalTo(self);
             make.width.equalTo(self);
         }];
+       	//------------------------------------------
     }
     return self;
 }
