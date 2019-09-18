@@ -3,6 +3,10 @@ Customizable popup for iOS.
 
 XLPopup is now available.
 
+# Preview
+
+![img](https://github.com/weirdyu/XLPopup/blob/master/Preview.gif)
+
 # Usage
 
 ### Custom view from XLPopupView
@@ -71,10 +75,6 @@ CustomPopupView.m
     return YES;
 }
 ```
-
-# Preview
-
-![img](https://github.com/weirdyu/XLPopup/blob/master/Preview.gif)
 
 # TODO
 
